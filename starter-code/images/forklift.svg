@@ -129,10 +129,7 @@
             <stop stop-color="#4A4A4A" offset="0%"/>
             <stop stop-color="#29282A" offset="100%"/>
         </linearGradient>
-        <style>
-            @media (max-width:1300px){.wide{display:none}}
-            @media (min-width:1299px){.narrow{display:none}}
-        </style>
+
     </defs>
     <rect id="ground" height="100%" width="100%" fill="#206F9C"/>
     <rect class="wide" id="skyWide" width="100%" height="70%" fill="#2481B7"/>
@@ -288,7 +285,7 @@
     <svg class="wide" viewBox="0 0 1330 464" preserveAspectRatio="xMidYMid meet">
         <use xlink:href="#foreground" transform="scale(0.90) translate(60 -20)"/>
     </svg>
-    <svg class="narrow" viewBox="0 0 1330 464" preserveAspectRatio="xMidYMin meet">
+    <!-- <svg class="narrow" viewBox="0 0 1330 464" preserveAspectRatio="xMidYMin meet">
         <use xlink:href="#foreground"/>
-    </svg>
+    </svg> -->
 </svg>
