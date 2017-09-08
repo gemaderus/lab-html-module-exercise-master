@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  color: #6d7986;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
@@ -59,6 +59,7 @@ h3 {
   appearance: none;
   background-color: transparent;
   border: none;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   line-height: 1.35;
@@ -69,7 +70,6 @@ h3 {
 
 .btn-base {
   border-radius: 20px;
-  color: #fff;
   font-size: 18px;
   font-weight: 400;
   padding: 8px 26px;
@@ -204,10 +204,6 @@ h3 {
   width: 45px;
 }
 
-.header-content {
-  color: #fff;
-}
-
 .title {
   font-size: 4.8rem;
   font-weight: 400;
@@ -216,7 +212,7 @@ h3 {
 
 .header-content-description {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 3.2rem;
 }
 
@@ -230,7 +226,6 @@ h3 {
 
 .collaboration {
   background-color: rgb(39, 53, 71);
-  color: #fff;
   font-size: 1.6rem;
   padding: 5rem 0;
 }
@@ -286,7 +281,6 @@ h3 {
   background-image: url(images/forklift.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
   height: 300px;
 }
 
@@ -311,6 +305,7 @@ h3 {
 }
 
 .services {
+  color: #6d7986;
   padding: 6.4rem 0;
 }
 
@@ -428,7 +423,6 @@ h3 {
   .service-item {
     width: 23%;
   }
-
 }
 
 @media only screen and (max-width : 320px) {
