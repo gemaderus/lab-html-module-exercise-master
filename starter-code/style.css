@@ -92,8 +92,6 @@ h3 {
   color: rgba(255,255,255,0.8);
   font-size: 1.4rem;
   padding: 11px 20px;
-  /*padding: 15px 20px 0;*/
-  /*height: 100px;*/
 }
 
 .nav-bar a {
@@ -104,16 +102,9 @@ h3 {
   padding-left: 1.4rem;
 }
 
-/*.top-left {
-  float: left;
-}*/
-
 .top-links {
   display: flex;
   flex-wrap: wrap;
-  /*display: inline-block;
-  float: right;
-  margin: 0 20px 0 0;*/
   padding: 0;
 }
 
@@ -131,11 +122,9 @@ h3 {
 .header {
   background-color: #01597C;
   background-image: url(images/city-scape.svg);
-  /*background-position: top center;*/
   background-repeat: no-repeat;
-  /*height: 435px;*/
-  position: relative;
   height: 850px;
+  position: relative;
 }
 
 .header-action {
@@ -148,8 +137,8 @@ h3 {
 }
 
 .header-content {
-  position: absolute;
   bottom: 5%;
+  position: absolute;
 }
 
 .npm-logo {
@@ -299,7 +288,6 @@ h3 {
   background-size: cover;
   color: #fff;
   height: 300px;
-  position: relative;
 }
 
 .what-npm-content {
@@ -336,8 +324,8 @@ h3 {
 }
 
 .service-item {
-  text-align: center;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .service-item h3 {
@@ -415,9 +403,9 @@ h3 {
   }
 
   .collaboration-image {
+    display: inline-block;
     height: 333px;
     margin: 0;
-    display: inline-block;
   }
 
   .what-npm {
